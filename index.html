@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aposta Estúdio C</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎰 Estúdio C Bet</h1>
+      <p class="slogan">Aposte na saída do Estúdio C e desafie sua intuição</p>
+    </header>
+
+    <section class="tip-card">
+      <h2>💡 DICA</h2>
+      <p>
+        Raramente eles vão embora depois das <strong>15h30</strong>.<br>
+        Suas chances de ganhar são maiores até as <strong>13h30</strong>.
+      </p>
+    </section>
+
+    <section class="ontem">
+      <p>📅 <strong>Horário que eles saíram ontem:</strong> 16h30</p>
+    </section>
+
+    <section class="bet">
+      <input type="time" id="horario" />
+      <button onclick="fazerAposta()">Fazer Aposta</button>
+    </section>
+
+    <div id="feedback"></div>
+    <div id="apostas"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
